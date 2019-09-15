@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100%;
+    margin: 0%;
+}
+@media(min-width:992px){
+    .main_header{
+    
+    }
+    .header_lis{
+        list-style: none;
+        background-color: rgb(13, 223, 13);
+        margin: 0%;
+        padding: 20px
+    }
+    .header_elements{
+        display: inline-block;
+        font-size: 22px;
+        margin: 0% 5% 0% 2%;
+    }
+    .header_link{
+        text-decoration: none;
+        color: white;
+    }
+    .img{
+        background: url("https://images.yourstory.com/cs/2/5739db30-22e7-11e9-9aaa-0334d2a19842/GLOBAL-BUSINESS1555321109971.jpg?fm=png&auto=format");
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .welcome{
+        width: 65%;
+        float: right;
+        padding: 2%;
+        margin: 4% 4% 4% 0%;
+        /* display: inline-block; */
+    
+    }
+    .welcome>h1{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+        /* font-size: 48px; */
+        /* text-align: center; */
+    }
+    .para{
+        text-align: justify;
+    }
+    .services{
+        width: 28%;
+        float: left;
+        padding: 2%;
+        margin: 6% 0% 0% 0%;
+        /* display: inline-block; */
+    
+    }
+    .services>h2{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+    
+    }
+    .com>h2{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+    
+    }
+    .com{
+        width: 28%;
+        float: left;
+        padding: 2%;
+        margin: 0% 0% 5% 0%;
+        /* display: inline-block; */
+    
+    }
+    
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    .main_header{
+    
+    }
+    .header_lis{
+        list-style: none;
+        background-color: rgb(13, 223, 13);
+        margin: 0%;
+        padding: 20px
+    }
+    .header_elements{
+        display: inline-block;
+        font-size: 18px;
+        margin: 0% 5% 0% 2%;
+    }
+    .header_link{
+        text-decoration: none;
+        color: white;
+    }
+    .img{
+        background: url("https://images.yourstory.com/cs/2/5739db30-22e7-11e9-9aaa-0334d2a19842/GLOBAL-BUSINESS1555321109971.jpg?fm=png&auto=format");
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .welcome{
+        width: 65%;
+        float: right;
+        padding: 2%;
+        margin: 4% 4% 4% 0%;
+        /* display: inline-block; */
+    
+    }
+    .welcome>h1{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+        /* font-size: 48px; */
+        /* text-align: center; */
+    }
+    .para{
+        text-align: justify;
+    }
+    .services{
+        width: 31%;
+        float: left;
+        padding: 2%;
+        margin: 6% 0% 0% 0%;
+        /* display: inline-block; */
+    
+    }
+    .services>h2{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+    
+    }
+    .com>h2{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+    
+    }
+    .com{
+        width: 31%;
+        float: left;
+        padding: 2%;
+        margin: 0% 0% 5% 0%;
+        /* display: inline-block; */
+    
+    }
+}
+@media(max-width:767px){
+    .header_lis{
+        list-style: none;
+        background-color: rgb(13, 223, 13);
+        margin: 0%;
+        padding: 20px
+    }
+    .header_elements{
+        display: inline-block;
+        font-size: 8px;
+        margin: 0% 5% 0% 2%;
+    }
+    .header_link{
+        text-decoration: none;
+        color: white;
+    }
+    .img{
+        background: url("https://images.yourstory.com/cs/2/5739db30-22e7-11e9-9aaa-0334d2a19842/GLOBAL-BUSINESS1555321109971.jpg?fm=png&auto=format");
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .welcome{
+        width: 100%;
+        padding: 2%;
+        margin: 4% 4% 4% 0%;
+        /* display: inline-block; */
+    
+    }
+    .welcome>h1{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+        /* font-size: 48px; */
+        /* text-align: center; */
+    }
+    .para{
+        text-align: justify;
+    }
+    .services{
+        width: 100%;
+        padding: 2%;
+        margin: 6% 0% 0% 0%;
+        /* display: inline-block; */
+    
+    }
+    .services>h2{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+    
+    }
+    .com>h2{
+        color: rgb(6, 138, 6);
+        font-weight: bolder;
+    
+    }
+    .com{
+        width: 100%;
+        padding: 2%;
+        margin: 0% 0% 5% 0%;
+        /* display: inline-block; */
+    
+    }
+}
